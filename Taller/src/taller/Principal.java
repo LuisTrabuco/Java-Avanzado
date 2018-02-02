@@ -3,6 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
+import taller.*;
 package taller;
 
 /**
@@ -16,6 +17,8 @@ public class Principal {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        Almacen almanaque = new Almacen();
+        almanaque.menu();
     }
     
 }
